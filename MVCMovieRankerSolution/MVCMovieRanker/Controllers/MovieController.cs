@@ -54,10 +54,10 @@ namespace MVCMovieRanker.Controllers
                 return NotFound();
             }
             var movieFromDb = _db.Movies.Find(id); // will search the PK
-            // other ways to retrieve records:
-            // var movieFromDbFirst = _db.Movies.FirstOrDefault(u => u.MovieId == id);
-            // var movieFromDbSingle = _db.Movies.SingleOrDefault(u => u.MovieId == id);
-            
+                                                   // other ways to retrieve records:
+                                                   // var movieFromDbFirst = _db.Movies.FirstOrDefault(u => u.MovieId == id);
+                                                   // var movieFromDbSingle = _db.Movies.SingleOrDefault(u => u.MovieId == id);
+
             if (movieFromDb == null)
             {
                 return NotFound();

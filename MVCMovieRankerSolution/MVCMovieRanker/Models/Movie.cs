@@ -16,7 +16,7 @@ namespace MVCMovieRanker.Models
         public string? Genre { get; set; }
         [DataType(DataType.Date)]
         [DisplayName("Release Date")]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy}")]
+        //[DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy}")]
         public DateTime ReleaseDate { get; set; }
         public string? Studio { get; set; }
         [Required]
