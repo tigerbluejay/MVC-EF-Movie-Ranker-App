@@ -8,9 +8,9 @@ Although the app is simple, there are many features of MVC applications at play.
 
 The list of features is long, here are some of them:
 
-##Features
+## Features
 
-###On the Front End:
+### On the Front End:
 - Use of GetBootstrap.com's navigation bar
 - Implementation of Bootswatch Theme
 - Implementation of Tostr Notifications
@@ -20,7 +20,7 @@ The list of features is long, here are some of them:
 - Displaying of Model data within the Views
 - Calls to relevant css files in the underscore Layout master page.
 
-###On the Back End - Database Related:
+### On the Back End - Database Related:
 - Definition of a connection string in appsettings.json
 - The creation of ApplicationDbContext
 - Adding scripts in the pipeline in Program.cs to connect with the database 
@@ -28,7 +28,7 @@ The list of features is long, here are some of them:
 - Use of EF migrations to create the database table based on the Model
 - The use of Add, Update and Remove to impact records in the database
 
-###Additional Backend:
+### Additional Backend:
 - EF Core, EF SQL, EF Tools Dependencies added via the NuGet Console Manager
 - Fetching object models by id
 - Passing object models to the Views
