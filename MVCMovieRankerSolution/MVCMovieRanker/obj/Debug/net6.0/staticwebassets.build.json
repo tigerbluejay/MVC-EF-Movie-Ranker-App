@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EfA1sT2bCKRiIXbpPPkuYwGLRnFS56RRs+GT4fjjZaU=",
+  "Hash": "9HCbqkRMly5+hhgK/rVnzOxhZT/t5xjsf9r94hfqjdw=",
   "Source": "MVCMovieRanker",
   "BasePath": "_content/MVCMovieRanker",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "C:\\Users\\josem\\source\\MVCMovieRanker\\MVCMovieRankerSolution\\MVCMovieRanker\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MVCMovieRanker.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\josem\\source\\MVCMovieRanker\\MVCMovieRankerSolution\\MVCMovieRanker\\wwwroot\\css\\BootsWatchThemeSlate.css",
+      "Identity": "C:\\Users\\josem\\source\\MVCMovieRanker\\MVCMovieRankerSolution\\MVCMovieRanker\\wwwroot\\css\\BootsWatchThemeLumen.css",
       "SourceId": "MVCMovieRanker",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\josem\\source\\MVCMovieRanker\\MVCMovieRankerSolution\\MVCMovieRanker\\wwwroot\\",
       "BasePath": "_content/MVCMovieRanker",
-      "RelativePath": "css/BootsWatchThemeSlate.css",
+      "RelativePath": "css/BootsWatchThemeLumen.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\BootsWatchThemeSlate.css"
+      "OriginalItemSpec": "wwwroot\\css\\BootsWatchThemeLumen.css"
     },
     {
       "Identity": "C:\\Users\\josem\\source\\MVCMovieRanker\\MVCMovieRankerSolution\\MVCMovieRanker\\wwwroot\\css\\site.css",
