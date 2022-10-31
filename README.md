@@ -11,29 +11,27 @@ The list of features is long, here are some of them:
 ## Features
 
 ### On the Front End:
-- Use of GetBootstrap.com's navigation bar
-- Implementation of Bootswatch Theme
-- Implementation of Tostr Notifications
-- The implementation of Views using Tag Helpers
-- Use of jQuery to provide front end validation
 - Creation of Models inside the view with the Create action to add records.
 - Displaying of Model data within the Views
-- Calls to relevant css files in the underscore Layout master page.
+- Use of GetBootstrap.com's navigation bar and icons
+- Implementation of Bootswatch Theme
+- The implementation of Views using Tag Helpers
+- Use of jQuery to provide front end validation
+- Implementation of Tostr Notification Alerts
 
 ### On the Back End - Database Related:
-- Definition of a connection string in appsettings.json
-- The creation of ApplicationDbContext
-- Adding scripts in the pipeline in Program.cs to connect with the database 
 - The addition of a Model with Data Annotations that impact table design in the database as well as front end display
-- Use of EF migrations to create the database table based on the Model
-- The use of Add, Update and Remove to impact records in the database
-
-### Additional Backend:
 - EF Core, EF SQL, EF Tools Dependencies added via the NuGet Console Manager
+- Definition of a connection string in appsettings.json
+- The creation of ApplicationDbContext class
+- Adding scripts in the pipeline in Program.cs to connect with the database 
+- Use of EF migrations to create the database table based on the Model
+- Creation of relevant Actions for GET and POST scenarios (Create, Edit, Delete)
+- The use of Add, Update and Remove to impact records in the database in the respective actions within the Movie Controller.
 - Fetching object models by id
 - Passing object models to the Views
-- LINQ Query ordering movies by score
-- Backend validation that score does not exceed 100
+- LINQ Query ordering movies by score in the Index Action
+- Server Side Validations with ModelState.IsValid
 - Implementation of Temp Data to display Success Messages
 - Decoration with Attributes on the Post Methods
 
