@@ -37,4 +37,8 @@ The list of features is long, here are some of them:
 
 Debugging the project with breakpoints might be the most useful thing beginners can do to understand the different parts at play. 
 
+## Release Publication
 
+Learn more about how to use this repo in the following link:
+
+[Read Article](https://dev.to/josemariairiarte/create-a-basic-crud-app-with-net-mvc-ef-35in)
