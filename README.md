@@ -2,6 +2,8 @@
 
 This project is an ideal foundational example to learn MVC with Entity Framework.
 
+This web application is a full-stack .NET 6 MVC app built with Entity Framework Core 6 using the Code-First approach. Users can add, edit, and rank movies, with full CRUD functionality, model validation, and LINQ-based data access. Designed as a learning tool, it showcases how to build a real-world MVC app with EF Core 6 from scratch.
+
 At its core, it is simply a table displaying records of Movies and their ranking (in descending order) according to a score - assigned by the user, which is defined between 0 and 100. The user can visualize the records ranked by Score, they can add new records, edit existing records and delete them as well. Notification messages show at the top right every time an operation has been successful.
 
 Although the app is simple, there are many features of MVC applications at play.
